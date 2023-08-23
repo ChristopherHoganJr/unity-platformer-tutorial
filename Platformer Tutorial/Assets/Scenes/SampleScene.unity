@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 887094733}
   - component: {fileID: 887094732}
   - component: {fileID: 887094734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,6 +404,14 @@ PrefabInstance:
     - target: {fileID: 7989297230808817458, guid: d77e3f9ebec1dd544a7ea67f486e1fec, type: 3}
       propertyPath: moveSpeed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989297230808817458, guid: d77e3f9ebec1dd544a7ea67f486e1fec, type: 3}
+      propertyPath: groundCheckDistance
+      value: 1.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7989297230808817458, guid: d77e3f9ebec1dd544a7ea67f486e1fec, type: 3}
+      propertyPath: whatIsGround.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
